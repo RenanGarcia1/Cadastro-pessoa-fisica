@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head> 
+		<title>Formularios</title>
+<style>
+body{font-family:arial;
+}
+
+#header{
+background-color:white;
+border:2px solid black;
+border-radius: 10px;
+}
+.cat{
+background-color:white;
+border:2px solid black;
+border-radius: 10px;
+}
+.evre{
+background-color:lightgray;
+border:2px solid gray;
+border-radius: 5px;
+}
+</style>
+
+
+
+
+		
+</head>
+<body>
+<div class="evre">
+	<h1 id="header"><center>CADASTRO PESSOA FÍSICA</center></h1>
+	<div class="cat">
+	<form method="post" action="">
+ 
+
+	<th colspan="1">
+
+	 </th>   
+    <tr>
+    <td>	 
+   <form method="post" action="">
+   
+      <label for="nome">Nome: </label>
+	  <input size="80" id="nome" type=text required name=nome/>
+	  <form method="post" action="">
+      <label for="Est.Civil">Est.Civil: </label>
+	  <input size="50" id="Est.Civil" type=text required name=Est.Civil/>
+	  <form method="post" action="">
+      <label for="Data de nascimento">Data de nascimento: </label>
+	  <input size="30"id="Data de nascimento" type=date required name=Data de nascimento/>
+	  
+	  <br />
+
+	  <label for="Local de nascimento">Local de nascimento: </label>
+	  <input size="50" id="Local de nascimento" type=text required name=Local de nascimento/>
+	  <label for="RG">RG: </label>
+	  <input size="50" id="RG" type=text required name=RG/>
+	  <label for="CPF">CPF: </label>
+	  <input size="50" id="CPF" type=text required name=CPF/>
+	  
+	  <br />
+	 
+	  <label for="Residencia">Residencia: </label>
+	  <input size=210" id="Residencia" type=text required name=Residencia/>
+	  
+      <br />
+	  
+	  <label for="Fone">Fone: </label>
+	  <input size="50"id="Fone" type=text required name=Fone/>
+	  <label for="Bairro">Bairro: </label>
+	  <input size="70"id="Bairro" type=text required name=Bairro/>
+	  <label for="Cidade">Cidade: </label>
+	  <input size="60"id="Cidade" type=text required name=Cidade/>
+	  
+	  <br />
+	  
+	  <label for="Há qnt.tempo">Há qnt.tempo: </label>
+	  <input <input size="30"id="Há qnt.tempo" type=text required name=Há qnt.tempo/>
+	  <label for="Casa Própria?">Casa Própria?: </label>
+	  <input <input size="30"id="Casa Própria?" type=text required name=Casa Própria?/>
+	   <label for="Aluguel R$">Aluguel R$: </label>
+	  <input <input size="30"id="Aluguel R$" type=text required name=Aluguel R$/>
+	   <label for="Pensão R$">Pensão R$: </label>
+	  <input <input size="30"id=Pensão R$" type=text required name=Pensão R$/>
+	  
+	   <br />
+	   
+	  <label for="Res.Ant">Res.Ant: </label>
+	  <input size="70"id="Res.Ant" type=text required name=Há Res.Ant/>
+	  <label for="Cidade">Cidade: </label>
+	  <input size="50"id="Cidade" type=text required name=Há Cidade/>
+	  <label for="Qnt.tempo">Qnt.tempo: </label>
+	  <input size="50" id="Qnt.tempo" type=text required name=Há Qnt.tempo/>
+	  
+	   <br />
+	   
+	  <label for="Local de Trabalho">Local de Trabalho: </label>
+	  <input size="120"id="Local de Trabalho" type=text required name=Há Local de Trabalho/>
+	  <label for="Local de Trabalho">Função: </label>
+	  <input size="50"id="Local de Trabalho" type=text required name=Há Local de Trabalho/>
+	  
+	  <br />
+	  
+	  <label for="Local de Trabalho">Endereço: </label>
+	  <input size="70"id="Local de Trabalho" type=text required name=Há Local de Trabalho/>
+	  <label for="Local de Trabalho">Cidade: </label>
+	  <input size="50"id="Local de Trabalho" type=text required name=Há Local de Trabalho/>
+	  <label for="Local de Trabalho">Fone: </label>
+	  <input size="30"id="Local de Trabalho" type=text required name=Há Local de Trabalho/>
+	  
+	  <br />
+	  
+	   <label for="Data de nascimento">Admitido em: </label>
+	  <input size="40"id="Data de nascimento" type=date required name=Data de nascimento/>
+	  
+	  
+      <br />
+	  </td>
+   </form>
+</body>
+</html>   
+	  
